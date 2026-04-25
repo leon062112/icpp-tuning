@@ -1,0 +1,263 @@
+Using HW spec: NVIDIA A100
+CUDA available: True
+
+M=1, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T256 score=0.000498
+2026-04-24 11:19:42  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:19:45  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:19:45  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:19:51  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T256 latency=0.0487 ms
+  Torch ref:      latency=0.0490 ms
+  Speedup vs torch: 1.0065x
+
+M=6, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T256 score=0.002989
+2026-04-24 11:19:53  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:19:57  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:19:57  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:20:03  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T256 latency=0.0481 ms
+  Torch ref:      latency=0.0586 ms
+  Speedup vs torch: 1.2171x
+
+M=11, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T256 score=0.005480
+2026-04-24 11:20:04  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:20:08  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:20:08  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:20:13  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T256 latency=0.0446 ms
+  Torch ref:      latency=0.0856 ms
+  Speedup vs torch: 1.9192x
+
+M=16, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T256 score=0.007971
+2026-04-24 11:20:14  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:20:18  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:20:18  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:20:23  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T256 latency=0.0469 ms
+  Torch ref:      latency=0.0620 ms
+  Speedup vs torch: 1.3204x
+
+M=21, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.008210
+2026-04-24 11:20:24  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:20:28  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:20:28  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:20:33  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0460 ms
+  Torch ref:      latency=0.0668 ms
+  Speedup vs torch: 1.4511x
+
+M=26, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.010164
+2026-04-24 11:20:34  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:20:38  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:20:39  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:20:45  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0436 ms
+  Torch ref:      latency=0.0557 ms
+  Speedup vs torch: 1.2772x
+
+M=31, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.012119
+2026-04-24 11:20:46  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:20:50  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:20:50  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:20:55  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0500 ms
+  Torch ref:      latency=0.0611 ms
+  Speedup vs torch: 1.2230x
+
+M=36, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.012537
+2026-04-24 11:20:56  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:21:00  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:21:00  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:21:05  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0460 ms
+  Torch ref:      latency=0.0540 ms
+  Speedup vs torch: 1.1750x
+
+M=41, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.014279
+2026-04-24 11:21:07  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:21:10  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:21:11  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:21:16  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0427 ms
+  Torch ref:      latency=0.0698 ms
+  Speedup vs torch: 1.6365x
+
+M=46, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.016020
+2026-04-24 11:21:18  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:21:21  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:21:21  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:21:27  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0449 ms
+  Torch ref:      latency=0.0951 ms
+  Speedup vs torch: 2.1189x
+
+M=51, N=2304, K=768
+  Formula top-1: BM32_BN128_BK64_S2_T256 score=0.015759
+2026-04-24 11:21:28  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:21:32  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:21:32  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:21:37  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM32_BN128_BK64_S2_T256 latency=0.0477 ms
+  Torch ref:      latency=0.0520 ms
+  Speedup vs torch: 1.0897x
+
+M=56, N=2304, K=768
+  Formula top-1: BM32_BN128_BK64_S2_T256 score=0.017304
+2026-04-24 11:21:38  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:21:42  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:21:42  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:21:48  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM32_BN128_BK64_S2_T256 latency=0.0439 ms
+  Torch ref:      latency=0.0541 ms
+  Speedup vs torch: 1.2332x
+
+M=61, N=2304, K=768
+  Formula top-1: BM32_BN128_BK64_S2_T256 score=0.018849
+2026-04-24 11:21:49  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:21:54  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:21:54  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:22:00  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM32_BN128_BK64_S2_T256 latency=0.0482 ms
+  Torch ref:      latency=0.0893 ms
+  Speedup vs torch: 1.8506x
+
+M=66, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.016823
+2026-04-24 11:22:01  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:22:05  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:22:05  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:22:11  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0470 ms
+  Torch ref:      latency=0.0899 ms
+  Speedup vs torch: 1.9117x
+
+M=71, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.018097
+2026-04-24 11:22:12  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:22:16  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:22:16  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:22:22  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0488 ms
+  Torch ref:      latency=0.0565 ms
+  Speedup vs torch: 1.1573x
+
+M=76, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.019372
+2026-04-24 11:22:23  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:22:27  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:22:27  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:22:33  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0464 ms
+  Torch ref:      latency=0.0595 ms
+  Speedup vs torch: 1.2808x
+
+M=81, N=2304, K=768
+  Formula top-1: BM32_BN128_BK64_S2_T256 score=0.019225
+2026-04-24 11:22:34  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:22:38  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:22:38  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:22:43  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM32_BN128_BK64_S2_T256 latency=0.0446 ms
+  Torch ref:      latency=0.0581 ms
+  Speedup vs torch: 1.3016x
+
+M=86, N=2304, K=768
+  Formula top-1: BM32_BN128_BK64_S2_T256 score=0.020411
+2026-04-24 11:22:44  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:22:50  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:22:50  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:22:55  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM32_BN128_BK64_S2_T256 latency=0.0483 ms
+  Torch ref:      latency=0.0902 ms
+  Speedup vs torch: 1.8673x
+
+M=91, N=2304, K=768
+  Formula top-1: BM32_BN128_BK64_S2_T256 score=0.021598
+2026-04-24 11:22:57  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:23:00  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:23:01  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:23:06  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM32_BN128_BK64_S2_T256 latency=0.0498 ms
+  Torch ref:      latency=0.0936 ms
+  Speedup vs torch: 1.8799x
+
+M=96, N=2304, K=768
+  Formula top-1: BM32_BN128_BK64_S2_T256 score=0.022785
+2026-04-24 11:23:07  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:23:11  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:23:11  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:23:16  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM32_BN128_BK64_S2_T256 latency=0.0482 ms
+  Torch ref:      latency=0.0753 ms
+  Speedup vs torch: 1.5622x
+
+M=101, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.021670
+2026-04-24 11:23:17  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:23:21  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:23:21  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:23:26  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0494 ms
+  Torch ref:      latency=0.0816 ms
+  Speedup vs torch: 1.6514x
+
+M=106, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.022743
+2026-04-24 11:23:28  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:23:31  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:23:31  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:23:37  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0502 ms
+  Torch ref:      latency=0.0645 ms
+  Speedup vs torch: 1.2867x
+
+M=111, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.023816
+2026-04-24 11:23:38  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:23:42  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:23:42  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:23:47  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0478 ms
+  Torch ref:      latency=0.0660 ms
+  Speedup vs torch: 1.3813x
+
+M=116, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.023587
+2026-04-24 11:23:48  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:23:52  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:23:52  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:23:57  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0464 ms
+  Torch ref:      latency=0.0957 ms
+  Speedup vs torch: 2.0626x
+
+M=121, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.024604
+2026-04-24 11:23:59  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:24:03  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:24:03  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:24:08  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0479 ms
+  Torch ref:      latency=0.0722 ms
+  Speedup vs torch: 1.5058x
+
+M=126, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_S2_T128 score=0.025621
+2026-04-24 11:24:09  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=[-1]`
+2026-04-24 11:24:13  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+2026-04-24 11:24:13  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `ln_main` with `out_idx=[-1]`
+2026-04-24 11:24:18  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `ln_main`
+  Formula kernel: BM16_BN128_BK64_S2_T128 latency=0.0470 ms
+  Torch ref:      latency=0.0718 ms
+  Speedup vs torch: 1.5271x
+

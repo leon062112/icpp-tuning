@@ -1,0 +1,262 @@
+{
+  "Config-A (BM128)": [
+    {
+      "M": 24,
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 42.79,
+        "dram_throughput_pct": 10.17,
+        "latency_us": 22.752,
+        "registers_per_thread": 230.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 2.18,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 624.35,
+        "tensor_pipe_util_pct": 33.37898224256073
+      }
+    },
+    {
+      "M": 64,
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 43.66,
+        "dram_throughput_pct": 10.43,
+        "latency_us": 22.592,
+        "registers_per_thread": 230.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 2.16,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 734.36,
+        "tensor_pipe_util_pct": 33.15674291665199
+      }
+    },
+    {
+      "M": 128,
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 45.59,
+        "dram_throughput_pct": 10.51,
+        "latency_us": 22.976,
+        "registers_per_thread": 230.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 2.14,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 853.42,
+        "tensor_pipe_util_pct": 32.79323767571523
+      }
+    },
+    {
+      "M": 256,
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 65.09,
+        "dram_throughput_pct": 11.0,
+        "latency_us": 23.104,
+        "registers_per_thread": 230.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 4.26,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 765.48,
+        "tensor_pipe_util_pct": 65.27760512786188
+      }
+    },
+    {
+      "M": 512,
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 77.19,
+        "dram_throughput_pct": 11.85,
+        "latency_us": 23.616,
+        "registers_per_thread": 230.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 8.36,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 861.07,
+        "tensor_pipe_util_pct": 128.2857364332588
+      }
+    },
+    {
+      "M": 1024,
+      "metrics": {
+        "occupancy_pct": 8.77,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 85.07,
+        "dram_throughput_pct": 9.43,
+        "latency_us": 35.008,
+        "registers_per_thread": 230.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 11.31,
+        "stall_not_selected": 735.16,
+        "stall_long_scoreboard": 1096.95,
+        "tensor_pipe_util_pct": 173.4888881182507
+      }
+    },
+    {
+      "M": 2048,
+      "metrics": {
+        "occupancy_pct": 10.6,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 90.12,
+        "dram_throughput_pct": 7.74,
+        "latency_us": 55.744,
+        "registers_per_thread": 230.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 14.24,
+        "stall_not_selected": 1117.09,
+        "stall_long_scoreboard": 1175.18,
+        "tensor_pipe_util_pct": 218.44929202143092
+      }
+    },
+    {
+      "M": 4096,
+      "metrics": {
+        "occupancy_pct": 11.46,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 92.68,
+        "dram_throughput_pct": 9.46,
+        "latency_us": 96.704,
+        "registers_per_thread": 230.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 16.24,
+        "stall_not_selected": 1295.47,
+        "stall_long_scoreboard": 887.12,
+        "tensor_pipe_util_pct": 249.19389182940927
+      }
+    }
+  ],
+  "Config-B (BM32)": [
+    {
+      "M": 24,
+      "metrics": {
+        "occupancy_pct": 6.22,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 43.36,
+        "dram_throughput_pct": 25.53,
+        "latency_us": 9.088,
+        "registers_per_thread": 52.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 6.56,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 1193.73,
+        "tensor_pipe_util_pct": 20.50844521351114
+      }
+    },
+    {
+      "M": 64,
+      "metrics": {
+        "occupancy_pct": 8.57,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 65.86,
+        "dram_throughput_pct": 20.34,
+        "latency_us": 11.552,
+        "registers_per_thread": 52.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 10.7,
+        "stall_not_selected": 132.42,
+        "stall_long_scoreboard": 1035.14,
+        "tensor_pipe_util_pct": 33.26805884612792
+      }
+    },
+    {
+      "M": 128,
+      "metrics": {
+        "occupancy_pct": 16.33,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 78.95,
+        "dram_throughput_pct": 14.83,
+        "latency_us": 16.32,
+        "registers_per_thread": 52.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 15.44,
+        "stall_not_selected": 415.76,
+        "stall_long_scoreboard": 1091.67,
+        "tensor_pipe_util_pct": 48.013606981197206
+      }
+    },
+    {
+      "M": 256,
+      "metrics": {
+        "occupancy_pct": 21.01,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 87.71,
+        "dram_throughput_pct": 9.78,
+        "latency_us": 25.984,
+        "registers_per_thread": 52.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 20.26,
+        "stall_not_selected": 665.95,
+        "stall_long_scoreboard": 755.43,
+        "tensor_pipe_util_pct": 62.99069710755669
+      }
+    },
+    {
+      "M": 512,
+      "metrics": {
+        "occupancy_pct": 22.93,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 92.82,
+        "dram_throughput_pct": 7.09,
+        "latency_us": 39.36,
+        "registers_per_thread": 52.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 24.15,
+        "stall_not_selected": 673.99,
+        "stall_long_scoreboard": 841.68,
+        "tensor_pipe_util_pct": 75.08318771759299
+      }
+    },
+    {
+      "M": 1024,
+      "metrics": {
+        "occupancy_pct": 23.71,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 95.74,
+        "dram_throughput_pct": 4.71,
+        "latency_us": 69.984,
+        "registers_per_thread": 52.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 27.77,
+        "stall_not_selected": 688.45,
+        "stall_long_scoreboard": 909.56,
+        "tensor_pipe_util_pct": 86.33792227505485
+      }
+    },
+    {
+      "M": 2048,
+      "metrics": {
+        "occupancy_pct": 24.05,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 97.18,
+        "dram_throughput_pct": 3.43,
+        "latency_us": 126.816,
+        "registers_per_thread": 52.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 30.29,
+        "stall_not_selected": 693.68,
+        "stall_long_scoreboard": 924.37,
+        "tensor_pipe_util_pct": 94.16671701698877
+      }
+    },
+    {
+      "M": 4096,
+      "metrics": {
+        "occupancy_pct": 24.26,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 97.93,
+        "dram_throughput_pct": 4.28,
+        "latency_us": 241.92,
+        "registers_per_thread": 52.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 31.96,
+        "stall_not_selected": 699.08,
+        "stall_long_scoreboard": 887.66,
+        "tensor_pipe_util_pct": 99.38217108629532
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "exp2a": [
+    {
+      "label": "BM=32",
+      "config": {
+        "label": "BM=32",
+        "bm": 32,
+        "bn": 128,
+        "bk": 32,
+        "warps": 4,
+        "stages": 3
+      },
+      "metrics": {
+        "occupancy_pct": 8.47,
+        "theoretical_occupancy_pct": 31.25,
+        "l2_hit_rate_pct": 81.21,
+        "dram_throughput_pct": 13.06,
+        "latency_us": 19.488,
+        "registers_per_thread": 94.0,
+        "smem_dynamic_bytes": 20480.0,
+        "mem_pipes_busy_pct": 11.89,
+        "stall_not_selected": 242.14,
+        "stall_long_scoreboard": 4177.35,
+        "tensor_pipe_util_pct": 79.07801521132036
+      }
+    },
+    {
+      "label": "BM=64",
+      "config": {
+        "label": "BM=64",
+        "bm": 64,
+        "bn": 128,
+        "bk": 32,
+        "warps": 4,
+        "stages": 3
+      },
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 72.0,
+        "dram_throughput_pct": 13.44,
+        "latency_us": 18.944,
+        "registers_per_thread": 128.0,
+        "smem_dynamic_bytes": 24576.0,
+        "mem_pipes_busy_pct": 7.79,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 3715.17,
+        "tensor_pipe_util_pct": 80.04170141377367
+      }
+    },
+    {
+      "label": "BM=128",
+      "config": {
+        "label": "BM=128",
+        "bm": 128,
+        "bn": 128,
+        "bk": 32,
+        "warps": 4,
+        "stages": 3
+      },
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 65.14,
+        "dram_throughput_pct": 11.04,
+        "latency_us": 23.104,
+        "registers_per_thread": 230.0,
+        "smem_dynamic_bytes": 32768.0,
+        "mem_pipes_busy_pct": 4.24,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 803.38,
+        "tensor_pipe_util_pct": 65.06263032679438
+      }
+    }
+  ],
+  "exp2b": [
+    {
+      "label": "warps=2",
+      "config": {
+        "label": "warps=2",
+        "bm": 64,
+        "bn": 128,
+        "bk": 32,
+        "warps": 2,
+        "stages": 3
+      },
+      "metrics": {
+        "occupancy_pct": 3.12,
+        "theoretical_occupancy_pct": 12.5,
+        "l2_hit_rate_pct": 72.0,
+        "dram_throughput_pct": 11.94,
+        "latency_us": 21.312,
+        "registers_per_thread": 240.0,
+        "smem_dynamic_bytes": 24576.0,
+        "mem_pipes_busy_pct": 5.03,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 672.35,
+        "tensor_pipe_util_pct": 70.8848579663695
+      }
+    },
+    {
+      "label": "warps=4",
+      "config": {
+        "label": "warps=4",
+        "bm": 64,
+        "bn": 128,
+        "bk": 32,
+        "warps": 4,
+        "stages": 3
+      },
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 72.0,
+        "dram_throughput_pct": 13.44,
+        "latency_us": 18.944,
+        "registers_per_thread": 128.0,
+        "smem_dynamic_bytes": 24576.0,
+        "mem_pipes_busy_pct": 7.79,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 3715.17,
+        "tensor_pipe_util_pct": 80.04170141377367
+      }
+    },
+    {
+      "label": "warps=8",
+      "config": {
+        "label": "warps=8",
+        "bm": 64,
+        "bn": 128,
+        "bk": 32,
+        "warps": 8,
+        "stages": 3
+      },
+      "metrics": {
+        "occupancy_pct": 12.41,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 72.0,
+        "dram_throughput_pct": 12.86,
+        "latency_us": 19.744,
+        "registers_per_thread": 94.0,
+        "smem_dynamic_bytes": 24576.0,
+        "mem_pipes_busy_pct": 10.35,
+        "stall_not_selected": 493.7,
+        "stall_long_scoreboard": 2865.09,
+        "tensor_pipe_util_pct": 76.07818445059236
+      }
+    }
+  ],
+  "exp2c": [
+    {
+      "label": "stages=2",
+      "config": {
+        "label": "stages=2",
+        "bm": 64,
+        "bn": 128,
+        "bk": 32,
+        "warps": 4,
+        "stages": 2
+      },
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 72.0,
+        "dram_throughput_pct": 8.09,
+        "latency_us": 31.392,
+        "registers_per_thread": 128.0,
+        "smem_dynamic_bytes": 12288.0,
+        "mem_pipes_busy_pct": 4.55,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 17630.12,
+        "tensor_pipe_util_pct": 47.13644106635841
+      }
+    },
+    {
+      "label": "stages=3",
+      "config": {
+        "label": "stages=3",
+        "bm": 64,
+        "bn": 128,
+        "bk": 32,
+        "warps": 4,
+        "stages": 3
+      },
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 25.0,
+        "l2_hit_rate_pct": 72.0,
+        "dram_throughput_pct": 13.44,
+        "latency_us": 18.944,
+        "registers_per_thread": 128.0,
+        "smem_dynamic_bytes": 24576.0,
+        "mem_pipes_busy_pct": 7.79,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 3715.17,
+        "tensor_pipe_util_pct": 80.04170141377367
+      }
+    },
+    {
+      "label": "stages=4",
+      "config": {
+        "label": "stages=4",
+        "bm": 64,
+        "bn": 128,
+        "bk": 32,
+        "warps": 4,
+        "stages": 4
+      },
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 18.75,
+        "l2_hit_rate_pct": 72.24,
+        "dram_throughput_pct": 15.22,
+        "latency_us": 16.768,
+        "registers_per_thread": 132.0,
+        "smem_dynamic_bytes": 36864.0,
+        "mem_pipes_busy_pct": 8.99,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 1342.53,
+        "tensor_pipe_util_pct": 90.95304737674513
+      }
+    },
+    {
+      "label": "stages=5",
+      "config": {
+        "label": "stages=5",
+        "bm": 64,
+        "bn": 128,
+        "bk": 32,
+        "warps": 4,
+        "stages": 5
+      },
+      "metrics": {
+        "occupancy_pct": 6.24,
+        "theoretical_occupancy_pct": 18.75,
+        "l2_hit_rate_pct": 71.99,
+        "dram_throughput_pct": 15.07,
+        "latency_us": 16.864,
+        "registers_per_thread": 132.0,
+        "smem_dynamic_bytes": 49152.0,
+        "mem_pipes_busy_pct": 9.14,
+        "stall_not_selected": 0.0,
+        "stall_long_scoreboard": 1314.84,
+        "tensor_pipe_util_pct": 90.90364346951864
+      }
+    }
+  ]
+}

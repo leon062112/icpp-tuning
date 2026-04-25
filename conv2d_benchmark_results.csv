@@ -1,0 +1,2 @@
+Index,N,C,H,W,F_out,Kernel_H,Kernel_W,Stride,Pad,Dilation,Backend,Best_Config,Is_Correct,Latency_ms,TFlops,Status
+1,1,3,224,224,96,11,11,4,0,1,tilelang,"{'block_M': 64, 'block_N': 64, 'block_K': 64, 'num_stages': 2, 'thread_num': 128}",True,0.0144,14.08,OK

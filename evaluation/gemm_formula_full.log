@@ -1,0 +1,263 @@
+Using HW spec: NVIDIA A100
+CUDA available: True
+
+M=1, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T256 score=0.001553
+2026-04-24 11:13:01,206 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:02  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:06  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.013951999135315418 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 256} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T256 latency=0.0141 ms
+  Torch ref:      latency=0.0315 ms
+  Speedup vs torch: 2.2339x
+
+M=6, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T256 score=0.009319
+2026-04-24 11:13:09,318 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:09  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:13  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.014013629406690598 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 256} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T256 latency=0.0154 ms
+  Torch ref:      latency=0.0658 ms
+  Speedup vs torch: 4.2806x
+
+M=11, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T256 score=0.017085
+2026-04-24 11:13:14,112 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:14  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:17  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.014615272171795368 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 256} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T256 latency=0.0151 ms
+  Torch ref:      latency=0.0528 ms
+  Speedup vs torch: 3.4944x
+
+M=16, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T256 score=0.024851
+2026-04-24 11:13:18,701 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:18  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:22  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.014142791740596294 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 256} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T256 latency=0.0141 ms
+  Torch ref:      latency=0.0473 ms
+  Speedup vs torch: 3.3602x
+
+M=21, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.024416
+2026-04-24 11:13:23,239 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:23  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:27  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.015018666163086891 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0151 ms
+  Torch ref:      latency=0.0451 ms
+  Speedup vs torch: 2.9936x
+
+M=26, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.030229
+2026-04-24 11:13:28,328 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:28  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:32  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.015089510008692741 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0142 ms
+  Torch ref:      latency=0.0470 ms
+  Speedup vs torch: 3.3032x
+
+M=31, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.036043
+2026-04-24 11:13:33,221 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:33  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:37  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.014239395968616009 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0148 ms
+  Torch ref:      latency=0.0484 ms
+  Speedup vs torch: 3.2674x
+
+M=36, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.039366
+2026-04-24 11:13:38,576 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:38  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:42  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.015434471890330315 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0147 ms
+  Torch ref:      latency=0.0658 ms
+  Speedup vs torch: 4.4704x
+
+M=41, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.044833
+2026-04-24 11:13:43,662 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:43  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:47  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.015202461741864681 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0145 ms
+  Torch ref:      latency=0.0762 ms
+  Speedup vs torch: 5.2733x
+
+M=46, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.050301
+2026-04-24 11:13:48,908 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:48  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:53  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.01443446148186922 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0143 ms
+  Torch ref:      latency=0.0523 ms
+  Speedup vs torch: 3.6509x
+
+M=51, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.053550
+2026-04-24 11:13:54,448 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:54  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:13:58  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.016364308074116707 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0165 ms
+  Torch ref:      latency=0.0443 ms
+  Speedup vs torch: 2.6877x
+
+M=56, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.058800
+2026-04-24 11:13:59,592 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:13:59  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:04  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.016383998095989227 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0158 ms
+  Torch ref:      latency=0.0399 ms
+  Speedup vs torch: 2.5346x
+
+M=61, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.064051
+2026-04-24 11:14:04,940 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:04  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:08  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.016364678740501404 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0174 ms
+  Torch ref:      latency=0.0762 ms
+  Speedup vs torch: 4.3829x
+
+M=66, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.067287
+2026-04-24 11:14:09,728 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:09  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:13  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.01788061484694481 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0168 ms
+  Torch ref:      latency=0.0505 ms
+  Speedup vs torch: 3.0003x
+
+M=71, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.072384
+2026-04-24 11:14:14,664 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:14  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:18  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.017644308507442474 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0178 ms
+  Torch ref:      latency=0.0593 ms
+  Speedup vs torch: 3.3298x
+
+M=76, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.077482
+2026-04-24 11:14:19,944 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:19  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:23  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.01784123107790947 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0170 ms
+  Torch ref:      latency=0.0731 ms
+  Speedup vs torch: 4.3069x
+
+M=81, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.075276
+2026-04-24 11:14:24,921 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:24  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:28  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.018392615020275116 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0179 ms
+  Torch ref:      latency=0.0622 ms
+  Speedup vs torch: 3.4766x
+
+M=86, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.079923
+2026-04-24 11:14:29,942 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:29  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:34  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.01856984570622444 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0183 ms
+  Torch ref:      latency=0.0771 ms
+  Speedup vs torch: 4.2103x
+
+M=91, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.084569
+2026-04-24 11:14:35,186 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:35  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:39  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.017639849334955215 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0175 ms
+  Torch ref:      latency=0.0463 ms
+  Speedup vs torch: 2.6386x
+
+M=96, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.089216
+2026-04-24 11:14:40,270 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:40  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:44  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.01785237528383732 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0176 ms
+  Torch ref:      latency=0.0500 ms
+  Speedup vs torch: 2.8310x
+
+M=101, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.088431
+2026-04-24 11:14:45,326 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:45  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:49  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.022548479959368706 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0227 ms
+  Torch ref:      latency=0.0479 ms
+  Speedup vs torch: 2.1116x
+
+M=106, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.092808
+2026-04-24 11:14:50,421 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:50  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:54  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.022449228912591934 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0235 ms
+  Torch ref:      latency=0.0461 ms
+  Speedup vs torch: 1.9590x
+
+M=111, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.097186
+2026-04-24 11:14:55,601 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:14:55  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:14:59  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.023633921518921852 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0229 ms
+  Torch ref:      latency=0.0787 ms
+  Speedup vs torch: 3.4411x
+
+M=116, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.096379
+2026-04-24 11:15:00,808 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:15:00  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:15:04  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.024457845836877823 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0227 ms
+  Torch ref:      latency=0.0576 ms
+  Speedup vs torch: 2.5377x
+
+M=121, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.100533
+2026-04-24 11:15:05,983 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:15:06  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:15:10  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.023813020437955856 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0247 ms
+  Torch ref:      latency=0.0503 ms
+  Speedup vs torch: 2.0411x
+
+M=126, N=2304, K=768
+  Formula top-1: BM16_BN128_BK64_SK2_S4_T128 score=0.104687
+2026-04-24 11:15:11,122 INFO:Auto-tuning with 0.9 CPU utilizations, 160 CPUs available, 144 CPUs will be used
+2026-04-24 11:15:11  [TileLang:tilelang.jit.kernel:INFO]: TileLang begins to compile kernel `main` with `out_idx=None`
+2026-04-24 11:15:15  [TileLang:tilelang.jit.kernel:INFO]: TileLang completes to compile kernel `main`
+Tuned Latency 0.023926155641674995 with config {'block_M': 16, 'block_N': 128, 'block_K': 64, 'split_k': 2, 'num_stages': 4, 'thread_num': 128} at index 0
+  Formula kernel: BM16_BN128_BK64_SK2_S4_T128 latency=0.0242 ms
+  Torch ref:      latency=0.0480 ms
+  Speedup vs torch: 1.9781x
+
