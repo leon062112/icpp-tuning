@@ -1,4 +1,0 @@
-Index,Fusion,N,C,H,W,F_out,Kernel_H,Kernel_W,Stride,Pad,Dilation,Best_Config,Is_Correct,TileLang_Lat_ms,Torch_Lat_ms,TileLang_TFlops,Torch_TFlops,Speedup
-1,relu,1,3,224,224,96,11,11,4,0,1,ERROR: Auto-tuning failed: No configuration successfully compiled and passed benchmarking/validation.,Error,N/A,N/A,N/A,N/A,N/A
-2,relu,1,96,26,26,256,5,5,1,2,1,ERROR: Auto-tuning failed: No configuration successfully compiled and passed benchmarking/validation.,Error,N/A,N/A,N/A,N/A,N/A
-3,relu,1,192,28,28,64,1,1,1,0,1,ERROR: Auto-tuning failed: No configuration successfully compiled and passed benchmarking/validation.,Error,N/A,N/A,N/A,N/A,N/A
